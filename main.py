@@ -5,7 +5,7 @@ from keras.models import load_model
 import tensorflow as tf
 
 # Load the pre-trained model
-model = load_model('mnist.h5')
+model = load_model('./mnist.h5')
 
 # Function to preprocess the image
 def preprocess_image(image):
